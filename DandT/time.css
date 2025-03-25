@@ -1,0 +1,71 @@
+#mains{
+
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+}
+
+#mains:hover{
+
+    box-shadow: 16px 16px 26px rgb(79, 79, 172);
+    border: 8px solid black;
+}
+
+.dis{
+
+    font-size: 80px;
+}
+
+#dates{
+
+    width: 80%;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+#dates h1{
+
+    margin-top: 5%;
+    color: rgb(45, 0, 247);
+}
+
+#dates:hover{
+
+    box-shadow: 16px 16px 26px rgb(79, 79, 172);
+    border: 8px solid black;
+}
+
+.oras{
+
+    width: 200px;
+}
+
+@media (max-width: 780px) {
+    
+    .oras h1{
+
+        font-size: 30px;
+    }
+
+    #mains{
+
+        height: 180px;
+    }
+
+    #cd{
+
+        font-size: 30px;
+    }
+
+    #dates{
+
+        height: 100px;
+    }
+}
