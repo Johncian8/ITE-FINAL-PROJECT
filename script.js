@@ -49,7 +49,7 @@ class Credentials{
 
         promise.then((value)=>{
 
-            window.location.href = "choose/choose.html"
+            document.location.href = "choose/choose.html"
             alert(value)
         }).catch((error)=>{
 
